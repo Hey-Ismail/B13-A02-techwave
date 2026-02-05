@@ -6,6 +6,12 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* background-color: #1a0b2e; */
+  background-color: #230e3d;
+}
 .header-section {
   display: flex;
   justify-content: space-around;
@@ -53,3 +59,214 @@
   background-position: center;
 
 } */
+.hero-section {
+  background-color: #1a0b2e;
+  /* margin-bottom: 50px; */
+  max-width: 1600px;
+}
+/* TODO: will do the part later */
+.hero-section .hero-div .img-one img {
+  width: 100%;
+  /* background-image: url(./resources/assets/hero-circle.png); */
+}
+.about-pordcast-section {
+  background-color: #1a0b2e;
+  /* margin-bottom: 120px; */
+}
+.podcast-content {
+  /* text-align: center; */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.podcast-content .podcast-p-tag-about {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.podcast-content .long-p-text {
+  text-align: center;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  margin-bottom: 35px;
+}
+
+.podcast-content .last-p-tag {
+  margin-bottom: 50px;
+}
+
+.about-pordcast-section .flex-items {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30px;
+  text-align: center;
+}
+.flex-items .number {
+  font-size: 3rem;
+  color: #00ff88;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.flex-items .text {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 120px;
+}
+.techwave-grid {
+  /* margin-top: 120px; */
+  background-color: #230e3d;
+  color: #ffffff;
+}
+.techwave-grid .grid-content .heading-text .grid-heading {
+  margin-top: 120px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+.audio-quality {
+  grid-area: audio-quality;
+  background-color: #2d1b4e;
+  padding: 20px;
+  border-radius: 10px;
+}
+.audio-quality img {
+  margin-top: 110px;
+  height: 70px;
+  width: 70px;
+  margin-left: 40px;
+  margin-bottom: 16px;
+}
+.audio-quality .audio-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.audio-quality .small-text {
+  font-size: 1rem;
+  /* font-weight: 100; */
+  color: #d9d9d9;
+  margin-left: 40px;
+  margin-bottom: 107px;
+  line-height: 24px;
+}
+.mobile-friendly {
+  grid-area: mobile-friendly;
+  background-color: #2d1b4e;
+  border-radius: 10px;
+}
+.mobile-friendly img {
+  margin-top: 40px;
+  height: 70px;
+  width: 55px;
+  margin-left: 40px;
+}
+.mobile-friendly .mobile-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.mobile-friendly .mobile-text-sm {
+  font-size: 1rem;
+  color: #d9d9d9;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+.global-community {
+  grid-area: global-community;
+  background-color: #2d1b4e;
+  /* padding: 20px; */
+  border-radius: 10px;
+}
+.global-community img {
+  margin-top: 40px;
+  height: 55px;
+  width: 55px;
+  margin-left: 40px;
+}
+.global-community .global-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.global-community .global-text-sm {
+  font-size: 1rem;
+  color: #d9d9d9;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+.exclusive-interviews {
+  grid-area: exclusive-interviews;
+  background-color: #2d1b4e;
+  padding: 20px;
+  border-radius: 10px;
+}
+.exclusive-interviews img {
+  margin-top: 40px;
+  height: 55px;
+  width: 55px;
+  margin-left: 40px;
+}
+.exclusive-interviews .interviews-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.exclusive-interviews .interviews-text-sm {
+  font-size: 1rem;
+  color: #d9d9d9;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+.rice-resources {
+  grid-area: rice-resources;
+  background-color: #2d1b4e;
+  padding: 20px;
+  border-radius: 10px;
+}
+.rice-resources img {
+  margin-top: 40px;
+  height: 55px;
+  width: 55px;
+  margin-left: 40px;
+}
+.rice-resources .resources-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.rice-resources .resources-text-sm {
+  font-size: 1rem;
+  color: #d9d9d9;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+.grid-content .grid-class {
+  display: grid;
+  gap: 20px;
+  padding: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "audio-quality mobile-friendly  mobile-friendly"
+    "audio-quality  global-community  global-community"
+    "exclusive-interviews exclusive-interviews rice-resources";
+}
